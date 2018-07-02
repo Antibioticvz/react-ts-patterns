@@ -2,6 +2,8 @@
   "name": "react-ts-patterns",
   "version": "0.1.0",
   "description": "my React TypeScript patterns with demos",
+  "author": "Victor Zadorozhnyy",
+  "repository": "https://github.com/Antibioticvz/react-ts-patterns.git",
   "private": false,
   "license": "MIT",
   "dependencies": {
