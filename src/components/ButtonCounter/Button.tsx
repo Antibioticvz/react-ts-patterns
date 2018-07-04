@@ -1,7 +1,9 @@
+// Stateless Component pattern
 import * as React from "react";
 
 interface Props {
   color?: string;
+  children?: React.ReactNode;
   onClick(e: React.MouseEvent<HTMLElement>): void;
 }
 
