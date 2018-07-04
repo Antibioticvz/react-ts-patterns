@@ -1,3 +1,4 @@
+// Render Callbacks/Render Props pattern
 import * as React from "react";
 
 const isFunction = <T extends void>(value: any): value is T =>
