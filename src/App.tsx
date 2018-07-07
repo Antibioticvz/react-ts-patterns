@@ -13,12 +13,13 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">React TypeScript patterns</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <h5>
+          Button Stateless Component and ButtonCounter Container/Stateful Component
+        </h5>
         <ButtonCounter />
+        <h5>Render Callbacks/Render Props pattern</h5>
         <Menu />
       </div>
     )
