@@ -32,5 +32,6 @@
     "webpack",
     "jest",
     "src/setupTests.ts"
-  ]
+  ],
+  "plugins": ["prettier"]
 }

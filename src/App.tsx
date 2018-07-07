@@ -1,10 +1,11 @@
-import * as React from "react";
+import * as React from "react"
 
-import ButtonCounter from "./components/ButtonCounter/ButtonCounter";
-import Menu from "./components/Menu/Menu";
+import ButtonCounter from "./components/ButtonCounter/ButtonCounter"
+import Menu from "./components/Menu/Menu"
 
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.css"
+
+import logo from "./logo.svg"
 
 class App extends React.Component {
   public render() {
@@ -20,8 +21,8 @@ class App extends React.Component {
         <ButtonCounter />
         <Menu />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

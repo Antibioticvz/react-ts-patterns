@@ -1,8 +1,8 @@
-import * as React from "react";
+import * as React from "react"
 
-import Toggleable from "./Toggleable";
+import Toggleable from "./Toggleable"
 
-type Props = { title: string };
+type Props = { title: string }
 
 const ToggleableMenu: React.SFC<Props> = ({ title, children }) => (
   <Toggleable
@@ -15,6 +15,6 @@ const ToggleableMenu: React.SFC<Props> = ({ title, children }) => (
       </>
     )}
   />
-);
+)
 
-export default ToggleableMenu;
+export default ToggleableMenu

@@ -8,9 +8,11 @@
     "no-console": false,
     "member-access": false,
     "object-literal-sort-keys": false,
-    "ordered-imports": false,
+    "ordered-imports": true,
     "interface-name": false,
     "no-submodule-imports": false,
+
+    "semicolon": [true, "never"],
 
     "interface-over-type-literal": false,
     "jsx-no-lambda": false
