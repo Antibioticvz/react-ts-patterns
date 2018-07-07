@@ -3,12 +3,12 @@ import * as React from "react"
 import Button from "./Button"
 
 const initialState = { clickCount: 0 }
-interface State {
+interface IState {
   readonly clickCount: number
 }
 
-export class ButtonCounter extends React.Component<object, State> {
-  readonly state: State = initialState
+export class ButtonCounter extends React.Component<object, IState> {
+  readonly state: IState = initialState
   public render() {
     const { clickCount } = this.state
     return (
