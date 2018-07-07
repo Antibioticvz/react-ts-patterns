@@ -15,9 +15,7 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">React TypeScript patterns</h1>
         </header>
-        <h5>
-          Button Stateless Component and ButtonCounter Container/Stateful Component
-        </h5>
+        <h5>Button Stateless Component and ButtonCounter Container/Stateful Component</h5>
         <ButtonCounter />
         <h5>Render Callbacks/Render Props pattern</h5>
         <Menu />
