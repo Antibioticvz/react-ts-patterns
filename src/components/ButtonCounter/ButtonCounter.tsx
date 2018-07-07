@@ -24,10 +24,10 @@ export class ButtonCounter extends React.Component<object, IState> {
   private handleDecrement = () => this.setState(decrementClickCount)
 }
 
-const incrementClickCount = (prevState: State) => ({
+const incrementClickCount = (prevState: IState) => ({
   clickCount: prevState.clickCount + 1
 })
-const decrementClickCount = (prevState: State) => ({
+const decrementClickCount = (prevState: IState) => ({
   clickCount: prevState.clickCount - 1
 })
 
