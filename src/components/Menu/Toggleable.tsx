@@ -1,7 +1,7 @@
 // Render Callbacks/Render Props pattern
 import * as React from "react"
 
-const isFunction = <T extends void>(value: any): value is T => typeof value === "function"
+import { isFunction } from "../utils"
 
 const initialState = { show: false }
 type State = Readonly<typeof initialState>
